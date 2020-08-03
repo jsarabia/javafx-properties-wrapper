@@ -9,9 +9,10 @@ typealias JFXObservable = Observable
 typealias JFXObservableValue<T> = ObservableValue<T>
 typealias JFXObservableList<T> = ObservableList<T>
 
-typealias JFXSimpleStringProperty = SimpleStringProperty
-typealias JFXSimpleBooleanProperty = SimpleBooleanProperty
-typealias JFXSimpleDoubleProperty = SimpleDoubleProperty
+class JFXSimpleStringProperty() : SimpleStringProperty()
+class JFXSimpleBooleanProperty() : SimpleBooleanProperty()
+class JFXSimpleDoubleProperty() : SimpleDoubleProperty()
+
 typealias JFXSimpleFloatProperty = SimpleFloatProperty
 typealias JFXSimpleIntegerProperty = SimpleIntegerProperty
 
